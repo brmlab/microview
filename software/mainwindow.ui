@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>µView</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="VideoView" name="wgtVideo" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>640</width>
+      <height>480</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushL">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>60</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>⇐</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushR">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>60</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>⇒</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushD">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>90</y>
+      <width>31</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>⇓</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushU">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>10</y>
+      <width>31</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>⇑</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushZoomIn">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>160</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushZoomOut">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>160</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushSnap">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>210</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&amp;Snapshot</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushExit">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>460</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>E&amp;xit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushAbout_2">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>410</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&amp;About ...</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>VideoView</class>
+   <extends>QWidget</extends>
+   <header>videoview.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>pushL</tabstop>
+  <tabstop>pushR</tabstop>
+  <tabstop>pushU</tabstop>
+  <tabstop>pushD</tabstop>
+  <tabstop>pushZoomIn</tabstop>
+  <tabstop>pushZoomOut</tabstop>
+  <tabstop>pushSnap</tabstop>
+  <tabstop>pushAbout_2</tabstop>
+  <tabstop>pushExit</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
