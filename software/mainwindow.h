@@ -17,6 +17,9 @@ public:
 
 private slots:
 
+    void on_pushExit_clicked();
+    void on_pushAbout_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

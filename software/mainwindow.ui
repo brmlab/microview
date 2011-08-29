@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>µView</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/icons/icon.png</normaloff>:/icons/icon.png</iconset>
+  </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="VideoView" name="wgtVideo" native="true">
     <property name="geometry">
@@ -128,7 +132,7 @@
      <string>E&amp;xit</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushAbout_2">
+   <widget class="QPushButton" name="pushAbout">
     <property name="geometry">
      <rect>
       <x>660</x>
@@ -159,9 +163,11 @@
   <tabstop>pushZoomIn</tabstop>
   <tabstop>pushZoomOut</tabstop>
   <tabstop>pushSnap</tabstop>
-  <tabstop>pushAbout_2</tabstop>
+  <tabstop>pushAbout</tabstop>
   <tabstop>pushExit</tabstop>
  </tabstops>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>
