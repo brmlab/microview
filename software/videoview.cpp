@@ -1,4 +1,5 @@
 #include "videoview.h"
+#include "microview.h"
 #include <qdebug.h>
 
 VideoView::VideoView(QWidget *parent) :
@@ -8,12 +9,15 @@ VideoView::VideoView(QWidget *parent) :
 
 void VideoView::mouseMoveEvent(QMouseEvent *event)
 {
-    // TODO: process position
     qDebug() << event->pos();
 }
 
 void VideoView::wheelEvent(QWheelEvent *event)
 {
-    // TODO: process delta
-    qDebug() << event->delta();
+    if (event->delta() > 0) {
+        qDebug() << MSG_PLUS;
+    } else
+    if (event->delta() < 0) {
+        qDebug() << MSG_MINUS;
+    }
 }

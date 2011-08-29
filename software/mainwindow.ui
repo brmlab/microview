@@ -83,7 +83,7 @@
    <widget class="QPushButton" name="pushZoomIn">
     <property name="geometry">
      <rect>
-      <x>660</x>
+      <x>740</x>
       <y>160</y>
       <width>51</width>
       <height>31</height>
@@ -96,7 +96,7 @@
    <widget class="QPushButton" name="pushZoomOut">
     <property name="geometry">
      <rect>
-      <x>740</x>
+      <x>660</x>
       <y>160</y>
       <width>51</width>
       <height>31</height>

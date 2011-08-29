@@ -15,7 +15,8 @@ SOURCES += main.cpp\
     videoview.cpp
 
 HEADERS  += mainwindow.h \
-    videoview.h
+    videoview.h \
+    microview.h
 
 FORMS    += mainwindow.ui
 
